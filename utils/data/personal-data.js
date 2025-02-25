@@ -1,17 +1,17 @@
 export const personalData = {
-  name: "ABU SAID",
+  name: "Kashaf Naveed",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love almost all the stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
-  email: 'abusaid7388@gmail.com',
-  phone: '+8801608797655',
-  address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-  github: 'https://github.com/said7388',
+  description: "I am Kashaf Naveed, a passionate and detail-oriented MERN stack developer, currently pursuing a BS in Computer Science from Virtual University. With a strong self-learning attitude, I thrive on solving complex challenges and continuously enhancing my skills. I am committed to crafting innovative and impactful web solutions while ensuring efficiency in debugging and problem-solving. My enthusiasm for development drives me to push boundaries and create seamless digital experiences that truly make a difference.",
+  email: '222kashafnaveed@gmail.com',
+  phone: '+923276030700',
+  address: 'Muhammad nagar,Faisalabad.',
+  github: 'https://github.com/kashafnaveed123',
   facebook: 'https://www.facebook.com/abusaid.riyaz/',
-  linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
+  linkedIn: 'https://www.linkedin.com/in/kashaf-naveed-webdeveloper',
   twitter: 'https://twitter.com/said7388',
-  stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
-  resume: "https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+  stackOverflow: 'https://stackoverflow.com/',
+  leetcode: "https://leetcode.com/u/kashaf_naveed/",
+  devUsername: "",
+  resume: "https://drive.google.com/file/d/1Nhxu9VfLkmGKzytVRNaFio9ngniFBtQL/view?usp=drivesdk"
 }

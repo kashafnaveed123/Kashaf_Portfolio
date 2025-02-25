@@ -1,6 +1,5 @@
 // @flow strict
 
-import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
 import { BsPersonWorkspace } from "react-icons/bs";
 import experience from '../../../assets/lottie/code.json';
@@ -38,8 +37,6 @@ function Experience() {
 
           <div>
             <div className="flex flex-col gap-6">
-              {
-                experiences.map(experience => (
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
@@ -51,7 +48,7 @@ function Experience() {
                       />
                       <div className="flex justify-center">
                         <p className="text-xs sm:text-sm text-[#16f2b3]">
-                          {experience.duration}
+                          Present
                         </p>
                       </div>
                       <div className="flex items-center gap-x-8 px-3 py-5">
@@ -60,17 +57,15 @@ function Experience() {
                         </div>
                         <div>
                           <p className="text-base sm:text-xl mb-2 font-medium uppercase">
-                            {experience.title}
+                            Self Employed
                           </p>
                           <p className="text-sm sm:text-base">
-                            {experience.company}
+                          As a self-employed developer, I grow through diverse projects daily, continuously refining my skills and problem-solving abilities. Though I lack formal job experience, my hands-on learning has given me deep expertise. I adapt, innovate, and deliver high-quality solutions, proving that true experience comes from knowledge and practice. 🚀
                           </p>
                         </div>
                       </div>
                     </div>
                   </GlowCard>
-                ))
-              }
             </div>
           </div>
         </div>
